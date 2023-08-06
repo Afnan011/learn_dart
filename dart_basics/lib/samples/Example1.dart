@@ -5,13 +5,14 @@ void main()
   print("hello world");
 
   // listExamples();
-  mapExamples();
+  // mapExamples();
+
 
 
 }
 
 void mapExamples() {
-  //method-1
+//  method-1
 //   var afnan = {
 //     'name': 'Afnan',
 //     'usn':"4VP22MC027",
@@ -23,34 +24,27 @@ void mapExamples() {
 //    afnan['m1'] = 91;
 //    print('Marks: ${afnan['m1']}');
 
-//   method-2
+//  method-2
 
-  // var afnan = Map();
-  // afnan['name'] = "Afnan";
-  // afnan['usn'] = "4VP22MC027";
-  // afnan['m1'] = 90;
-  //
-  // print(afnan);
-  //
-  // print(afnan.isEmpty);
-  // print(afnan.isNotEmpty);
-  // print(afnan.containsKey('name'));
-  // print(afnan.containsKey('nn'));
-  // print(afnan.containsValue('afnan'));
-  // print(afnan.containsValue('Afnan'));
-  // print(afnan.keys);
-  // print(afnan.remove('name'));
-  // print(afnan);
+  var afnan = Map();
+  afnan['name'] = "Afnan";
+  afnan['usn'] = "4VP22MC027";
+  afnan['m1'] = 90;
 
+  print(afnan);
 
-
-
+  print(afnan.isEmpty);
+  print(afnan.isNotEmpty);
+  print(afnan.containsKey('name'));
+  print(afnan.containsKey('nn'));
+  print(afnan.containsValue('afnan'));
+  print(afnan.containsValue('Afnan'));
+  print(afnan.keys);
+  print(afnan.remove('name'));
+  print(afnan);
 
 }
-
-
-void listExamples()
-{
+void listExamples() {
   var list1 = [1, 2, 3, 4, 5];
 
   var list2 = [];
